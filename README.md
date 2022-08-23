@@ -5,10 +5,12 @@ Autor: Thomas do Vale
 ## Instruções de execucão
 
 Primmeiro é necessário instalar o json server com:
+
         npm i json-server
 
 
 Banco inicial que vai dentro do db.json (nao precisa copiar pro db.json porque lá já está com esses dados):
+
 {
     "alunos":[
             {
@@ -27,10 +29,12 @@ Banco inicial que vai dentro do db.json (nao precisa copiar pro db.json porque l
 }
 
 para rodar o json-server rode o seguinte comando na raiz do projeto (é necessario rodar o server para o trabalho funcionar):
+
         npm run server
 
 
 rode o trabalho com o comando:
+
         ng serve
 
 
