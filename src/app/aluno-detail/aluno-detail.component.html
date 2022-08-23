@@ -1,0 +1,18 @@
+<div *ngIf="aluno">
+    <h2>Detalhes de: {{aluno.nome | uppercase }}</h2>
+    <img src="{{aluno.imagem}}" height="100" alt="foto do aluno">
+    <div>
+        <label for="nome-aluno">Nome: </label>
+        <input id="nome-aluno" [(ngModel)]="aluno.nome" placeholder="nome">
+    </div>
+    <div>
+        <label for="endereco-aluno">Endereco: </label>
+        <input id="endereco-aluno" [(ngModel)]="aluno.endereco" placeholder="nome">
+    </div>
+    <div>
+        <label for="foto-aluno">Foto: </label>
+        <input #imageInput type="file" (change)="onFileSelected(imageInput)" accept="image/jpeg"/>
+    </div>
+</div>
+<button type="button" (click)="voltar()">Voltar</button>
+<button type="button" (click)="atualizarAluno()">Salvar</button>

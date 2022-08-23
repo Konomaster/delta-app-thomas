@@ -1,0 +1,18 @@
+<h2>Alunos</h2>
+<div id="search-component">
+    <label for="search-box">Busca Alunos</label>
+    <input #searchBox id="search-box" (input)="search(searchBox.value)"/>
+
+</div>
+<ul class="heroes">
+    <li *ngFor="let aluno of alunos">
+        <a routerLink="/detalhe/{{aluno.id}}">
+            <span class="badge">Nome:</span>
+            {{aluno.nome}}
+        </a>
+        <button type="button" class="delete" title="remover aluno" (click)="deletarAluno(aluno)">
+            X
+        </button>
+    </li>
+
+</ul>

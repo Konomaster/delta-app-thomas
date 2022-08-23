@@ -1,0 +1,21 @@
+<!-- <div>
+    <label for="novo-aluno-nome">Nome do aluno: </label>
+    <input #novoAlunoNome type="text">
+    <label for="novo-aluno-endereco">Endereco do aluno: </label>
+    <input #novoAlunoEndereco type="text">
+    <input type="file" accept="image/jpeg">
+    <button type="button" class="add-button" (click)="addAluno(novoAlunoNome.value,novoAlunoEndereco.value); novoAlunoNome.value='';novoAlunoEndereco.value=''">
+        Adicionar Aluno
+    </button>
+</div> -->
+<form (ngSubmit)="submit()" [formGroup]="alunoForm" #formDir="ngForm">
+    <div>
+        <input type="text" formControlName="nome" placeholder="Nome do aluno" required/>
+        <textarea formControlName="endereco" placeholder="Endereco do aluno" required></textarea>
+        <input #imageInput type="file" (change)="onFileSelected(imageInput)" accept="image/jpeg" required/>
+        <div *ngIf="imagem.invalid && formDir.submitted">
+            <p>Imagem tem que ser do formato png</p>
+        </div>
+        <input type="submit" value="Cadastrar aluno">
+    </div>
+</form>
