@@ -4,7 +4,7 @@ Autor: Thomas do Vale
 
 ## Instruções de execucão
 
-Primmeiro é necessário instalar o json server com:
+Primmeiro é necessário instalar o json server com o seguinte comando (na raiz do projeto):
 
         npm i json-server
 
@@ -33,7 +33,7 @@ para rodar o json-server rode o seguinte comando na raiz do projeto (é necessar
         npm run server
 
 
-rode o trabalho com o comando:
+rode o trabalho com o comando (na raiz do projeto):
 
         ng serve
 
