@@ -27,7 +27,7 @@ Banco inicial que vai dentro do db.json (nao precisa copiar pro db.json porque l
     ]
 }
 
-Para rodar o projeto, o comando (na raiz do projeto):
+Para rodar o projeto, rode o comando (na raiz do projeto):
 
         npm run start
 
