@@ -8,7 +8,7 @@ import { catchError, tap } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class AlunoService {
-  private apiUrl="http://localhost:3000/alunos"
+  private apiUrl="https://json-backend-delta.herokuapp.com/alunos"
 
   httpOptions={
     headers: new HttpHeaders({'Content-Type':'application/json'})
