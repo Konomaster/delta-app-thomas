@@ -5,7 +5,7 @@ Autor: Thomas do Vale
 ## Instruções de execucão
 
 Após dar clone no repositório, rode o comando (na raiz do projeto):
-	 npm install
+        npm install
 
 Banco inicial que vai dentro do db.json (nao precisa copiar pro db.json porque lá já está com esses dados):
 
@@ -27,7 +27,7 @@ Banco inicial que vai dentro do db.json (nao precisa copiar pro db.json porque l
 }
 
 Para rodar o projeto, o comando (na raiz do projeto):
-	npm run start
+        npm run start
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
