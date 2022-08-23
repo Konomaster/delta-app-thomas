@@ -31,6 +31,8 @@ Para rodar o projeto, o comando (na raiz do projeto):
 
         npm run start
 
+O próprio comando já informara em qual porta do localhost o app
+estará rodando. Provavelmente será localhost:4200
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
 
