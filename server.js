@@ -7,7 +7,7 @@ const middlewares = jsonServer.defaults({static: "./dist/delta-app-thomas"})
 server.use(middlewares)
 server.use(router)
 
-const port = process.env.PORT || 3001
+const port = process.env.PORT || 3000
 
 server.listen(port, () => {
     console.log(`JSON Server is running on port ${port}`)
