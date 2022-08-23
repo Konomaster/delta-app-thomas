@@ -4,10 +4,8 @@ Autor: Thomas do Vale
 
 ## Instruções de execucão
 
-Primmeiro é necessário instalar o json server com o seguinte comando (na raiz do projeto):
-
-        npm i json-server
-
+Após dar clone no repositório, rode o comando (na raiz do projeto):
+	 npm install
 
 Banco inicial que vai dentro do db.json (nao precisa copiar pro db.json porque lá já está com esses dados):
 
@@ -28,14 +26,8 @@ Banco inicial que vai dentro do db.json (nao precisa copiar pro db.json porque l
     ]
 }
 
-para rodar o json-server rode o seguinte comando na raiz do projeto (é necessario rodar o server para o trabalho funcionar):
-
-        npm run server
-
-
-rode o trabalho com o comando (na raiz do projeto):
-
-        ng serve
+Para rodar o projeto, o comando (na raiz do projeto):
+	npm run start
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
