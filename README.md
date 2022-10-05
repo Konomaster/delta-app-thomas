@@ -1,5 +1,7 @@
 # DeltaAppThomas
 
+# CRUD de Alunos
+
 Autor: Thomas do Vale
 
 ## Instruções de execucão
@@ -33,6 +35,9 @@ Para rodar o projeto, rode o comando (na raiz do projeto):
 
 O próprio comando já informara em qual porta do localhost o app
 estará rodando. Provavelmente será localhost:4200
+
+Ps: Na tela de consultar alunos (ond há a listagem dos alunos),
+você pode clicar no aluno para vêr as informações detalhadas dele, bem como edita-lo.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
 
